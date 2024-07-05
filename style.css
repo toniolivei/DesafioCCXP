@@ -1,0 +1,117 @@
+body{
+    background-color: #FFD900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+header{
+    padding: 20px;
+}
+
+#central{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50vw;
+    margin-top: 5px;
+    margin-left: -15px; 
+}
+
+#textoCentral{
+    text-align: center;
+    background-color: #514988;
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    height: 400px;
+}
+
+#tituloTextoCentral{
+    margin: 5px;
+    color: #FFD900;
+    font-size: 30px;
+}
+
+#data{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#conteudoTextoCentral{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#countDown{
+    background-color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#contador{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+.timer{
+    color: #514988;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#tituloCountDown{
+    color: #E33881;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+#compra{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#bilhetes{
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+#textoBilhetes{
+   color: #F3C61F;
+   font-size: 22px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-left: 40px;
+}
+
+.ingressos{
+    width: 140px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #514988;
+    color: white;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 380px;
+    height: 90px;
+    font-size: 20px;
+    margin-top: 90px;
+    padding: 0px;
+
+}
+
+button:hover{
+    background-color: #514988;
+    cursor: pointer;
+    color: #FFD900;
+}
